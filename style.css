@@ -1,0 +1,182 @@
+* {
+  font-family: "League Spartan", sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: auto;
+}
+body {
+  display: block;
+  background: #cecece;
+}
+main {
+  width: 100%;
+  justify-content: space-between;
+}
+.first {
+  max-width: 1140px;
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 211px;
+  gap: 30px;
+}
+.mod-first {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+  color: #161515;
+}
+h1 {
+  margin-top: 53px;
+  margin-bottom: 61px;
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 230px;
+  color: #272727;
+}
+.main-disc {
+  margin-bottom: 61px;
+  max-width: 575px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  color: #161515;
+}
+a {
+  text-decoration: none;
+}
+.button {
+  color: #ffffff;
+  background-color: #000;
+}
+.photo1 {
+  display: block;
+}
+.bay {
+  display: flex;
+  gap: 30px;
+}
+.btn {
+  cursor: pointer;
+  border: 2px solid #000;
+  display: inline-block;
+  padding: 30px 74px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 29px;
+  background-color: #000;
+}
+.price {
+  font-weight: 300;
+  font-size: 32px;
+  color: #272727;
+}
+.second {
+  display: block;
+  justify-content: center;
+}
+.category {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
+}
+h3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 112.5%;
+  text-align: center;
+  color: #000000;
+}
+.photo2 {
+  margin-top: 194px;
+  margin-bottom: 177px;
+  width: 286px;
+  margin-inline: auto;
+  background: #cecece;
+}
+.mod-first {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  color: #000000;
+}
+.mod {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.disc__secodary {
+  margin-inline: auto;
+  max-width: 532px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  text-align: center;
+  color: #161515;
+}
+.photo3 {
+  width: 500px;
+  margin-inline: auto;
+  background: #cecece;
+  margin-bottom: 132px;
+  margin-top: 150px;
+}
+.disc__third {
+  max-width: 510px;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 155%;
+  text-align: center;
+  color: #161515;
+  margin-inline: auto;
+}
+.prod-disc {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 186%;
+  text-align: center;
+  color: #161515;
+  margin-top: 59px;
+  margin-bottom: 58px;
+  position: relative;
+}
+.disc__fourth {
+  max-width: 515px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 170%;
+  text-align: center;
+  color: #161515;
+  margin-inline: auto;
+  margin-bottom: 142px;
+}
+.prod-disc::before {
+  justify-content: center;
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(0, 0, 0);
+}
+.prod-disc:hover:before {
+  width: 255px;
+}
+.prod-disc::before {
+  transition: width 0.35s;
+}
+.detailed {
+  color: #bb8b5d;
+}
